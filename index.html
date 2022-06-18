@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AImosaic</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/png" href="./AImosaicimg/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
   </head>
   <body>
     <div class="page__wrapper">
       <div class="header__logo">
-        <img src="./AImosaicimg/logo.png" class="header__logo--img">
+        <img src="./images/logo.png" class="header__logo--img">
       </div>
       <div class="header__banner">
-        <img src="./AImosaicimg/pool-banner.jpg" class="header__banner--img">
+        <img src="./images/pool-banner.jpg" class="header__banner--img">
       </div>
       <div class="header__text">
         <div class="header__title">
@@ -23,23 +24,23 @@
           +7 961 301 69 69
         </div>
         <div class="header__menu">
-          <div class="header__link">
-            <img class="hexagon" src="./AImosaicimg/hexagon.svg">
-            <a href="#our-work" class="header__link--inner">О нас</a>
-          </div>
-          <div class="header__link">
-            <img class="hexagon" src="./AImosaicimg/hexagon.svg">
-            <a href="#range" class="header__link--inner">Ассортимент плитки</a>
-          </div>
+          <a href="#our-work" class="header__link">
+            <img class="hexagon" src="./images/hexagon.svg">
+            <div class="header__link--inner">О нас</div>
+          </a>
+          <a href="#range" class="header__link">
+            <img class="hexagon" src="./images/hexagon.svg">
+            <div class="header__link--inner">Ассортимент плитки</div>
+          </a>
           <div class="header__subsection">
-            <a href="#" class="header__link--inner">Мозаика прессованная/порошковая </a>
-            <a href="#top" class="header__link--inner"><br>Мозаика стеклянная </a>
-            <a href="#top" class="header__link--inner"><br>Фриз и фигурная плитка </a>
+              <a href="#subsection1" class="header__link--inner">Мозаика прессованная/порошковая </a>
+              <a href="#subsection2" class="header__link--inner"><br>Мозаика стеклянная </a>
+              <a href="#subsection3" class="header__link--inner"><br>Фриз и фигурная плитка </a>
           </div>
-          <div class="header__link">
-            <img class="hexagon" src="./AImosaicimg/hexagon.svg">
-            <a href="#top" class="header__link--inner">Контакты</a>
-          </div>
+          <a href="#contacts" class="header__link">
+            <img class="hexagon" src="./images/hexagon.svg">
+            <div class="header__link--inner">Контакты</div>
+          </a>
         </div>
       </div>
       <div class="banner__text--wrapper">
@@ -53,10 +54,10 @@
         </div>
       </div>
     </div>
-    <div class="ornament">
-      <img class="ornament__inner" src="./AImosaicimg/ornament.png">
+    <div id="our-work" class="ornament">
+      <img class="ornament__inner" src="./images/ornament.png">
     </div>
-    <div id="our-work" class="making">
+    <div class="making">
       <div class="making__text">
         <div class="making__text--inner">
           Мы будем рады помочь подобрать вам
@@ -68,33 +69,37 @@
           <br>логотипов футбольных команд.
         </div>
         <div class="making__image">
-          <img class="making__image--inner" src="./AImosaicimg/fish.png">
+          <img class="making__image--inner" src="./images/fish.png">
         </div>
         <div class="making__image--text">
           Да-да, рыбки тоже из нашей плитки
         </div>
       </div>
       <div class="making__grid">
-        <div class="grid1">
-          <img class="grid__image" src="./AImosaicimg/grid1.jpg">
+        <div class="making__grid1">
+          <img class="making__grid1--image" src="./images/grid1.jpg">
         </div>
-        <div class="grid2">
-          <img class="grid__image" src="./AImosaicimg/grid2.jpg">
+        <div class="making__grid2">
+          <img class="making__grid2--image" src="./images/grid2.jpg">
         </div>
-        <div class="grid3">
-          <img class="grid__image" src="./AImosaicimg/grid3.jpg">
+        <div class="making__grid3">
+          <img class="making__grid3--image" src="./images/grid3.jpg">
         </div>
-        <div class="grid4">
-          <img class="grid__image" src="./AImosaicimg/grid4.jpg">
+        <div class="making__grid4">
+          <img class="making__grid4--image" src="./images/grid4.jpg">
         </div>
       </div>
     </div>
-    <div class="ornament">
-      <img class="ornament__inner" src="./AImosaicimg/ornament.png">
+    <div id="range" class="ornament">
+      <img class="ornament__inner" src="./images/ornament.png">
     </div>
-    <div id="range" class="range__text">
+    <div class="range__text">
+    <div class="range__wrapper">
       <div class="range__title">
         В ассортименте
+      </div>
+      <div id="subsection1" class="range__subtitle">
+        Мозаика прессованная/порошковая
       </div>
       <div class="range__description">
         Размер камня ~ 25мм. х 25мм. 
@@ -102,662 +107,661 @@
         <br>Количество листов в гофрированной, картонной коробке - 24 шт. 
         <br>Вес брутто коробки с мозаикой ~ 19 кг. (+/- 100 гр.)
       </div>
-    </div>
     <div class="range">
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/FV2500.png" class="cell__img">
+          <img src="./images/FV2500.png" class="cell__img">
           <div class="cell__price">
             FV 2500 (фосфор)
-            <br>290,4 за 1 кв.м в у. е.
+            <br>290,4 за 1 кв.м в у. е..
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/GI2501.png" class="cell__img">
+          <img src="./images/GI2501.png" class="cell__img">
           <div class="cell__price">
             GI 2501
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/GI2518.png" class="cell__img">
+          <img src="./images/GI2518.png" class="cell__img">
           <div class="cell__price">
             GI 2518
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/GI2511.png" class="cell__img">
+          <img src="./images/GI2511.png" class="cell__img">
           <div class="cell__price">
             GI 2521
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/GIV2506.png" class="cell__img">
+          <img src="./images/GIV2506.png" class="cell__img">
           <div class="cell__price">
             GIV 2506
-            <br>28.8 за 1 кв.м в у. е
+            <br>28.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/GVI25008.png" class="cell__img">
+          <img src="./images/GVI25008.png" class="cell__img">
           <div class="cell__price">
             GVI25008
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2501.png" class="cell__img">
+          <img src="./images/I2501.png" class="cell__img">
           <div class="cell__price">
             I2501
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2501mix.png" class="cell__img">
+          <img src="./images/I2501mix.png" class="cell__img">
           <div class="cell__price">
             I2501 mix
-            <br>21.6 за 1 кв.м в у. е
+            <br>21.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2502.png" class="cell__img">
+          <img src="./images/I2502.png" class="cell__img">
           <div class="cell__price">
             I2502
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2503.png" class="cell__img">
+          <img src="./images/I2503.png" class="cell__img">
           <div class="cell__price">
             I2503
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2504.png" class="cell__img">
+          <img src="./images/I2504.png" class="cell__img">
           <div class="cell__price">
             I2504
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2506.png" class="cell__img">
+          <img src="./images/I2506.png" class="cell__img">
           <div class="cell__price">
             I2506
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2508.png" class="cell__img">
+          <img src="./images/I2508.png" class="cell__img">
           <div class="cell__price">
             I2508
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2510.png" class="cell__img">
+          <img src="./images/I2510.png" class="cell__img">
           <div class="cell__price">
             I2510
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2512.png" class="cell__img">
+          <img src="./images/I2512.png" class="cell__img">
           <div class="cell__price">
             I2512
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2513.png" class="cell__img">
+          <img src="./images/I2513.png" class="cell__img">
           <div class="cell__price">
             I2513
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2518.png" class="cell__img">
+          <img src="./images/I2518.png" class="cell__img">
           <div class="cell__price">
             I2518
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2518K.png" class="cell__img">
+          <img src="./images/I2518K.png" class="cell__img">
           <div class="cell__price">
             I2518K
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I25181.png" class="cell__img">
+          <img src="./images/I25181.png" class="cell__img">
           <div class="cell__price">
             I2518/1
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2518mix.png" class="cell__img">
+          <img src="./images/I2518mix.png" class="cell__img">
           <div class="cell__price">
             I2518mix
-            <br>24 за 1 кв.м в у. е
+            <br>24 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2521.png" class="cell__img">
+          <img src="./images/I2521.png" class="cell__img">
           <div class="cell__price">
             I2521
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I25210.png" class="cell__img">
+          <img src="./images/I25210.png" class="cell__img">
           <div class="cell__price">
             I25210
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2522.png" class="cell__img">
+          <img src="./images/I2522.png" class="cell__img">
           <div class="cell__price">
             I2522
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2522AO.png" class="cell__img">
+          <img src="./images/I2522AO.png" class="cell__img">
           <div class="cell__price">
             I2522AO
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I2522mix.png" class="cell__img">
+          <img src="./images/I2522mix.png" class="cell__img">
           <div class="cell__price">
             I2522mix
-            <br>20.4 за 1 кв.м в у. е
+            <br>20.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I25228.png" class="cell__img">
+          <img src="./images/I25228.png" class="cell__img">
           <div class="cell__price">
             I25228
-            <br>19.2 за 1 кв.м в у. е
+            <br>19.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IFL2501.png" class="cell__img">
+          <img src="./images/IFL2501.png" class="cell__img">
           <div class="cell__price">
             IFL2501
-            <br>34.8 за 1 кв.м в у. е
+            <br>34.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IFL2503.png" class="cell__img">
+          <img src="./images/IFL2503.png" class="cell__img">
           <div class="cell__price">
             IFL2503
-            <br>34.8 за 1 кв.м в у. е
+            <br>34.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IFL2508.png" class="cell__img">
+          <img src="./images/IFL2508.png" class="cell__img">
           <div class="cell__price">
             IFL2508
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IFL2509.png" class="cell__img">
+          <img src="./images/IFL2509.png" class="cell__img">
           <div class="cell__price">
             IFL2509
-            <br>34.8 за 1 кв.м в у. е
+            <br>34.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IFL2510.png" class="cell__img">
+          <img src="./images/IFL2510.png" class="cell__img">
           <div class="cell__price">
             IFL2510
-            <br>34.8 за 1 кв.м в у. е
+            <br>34.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IFL2512.png" class="cell__img">
+          <img src="./images/IFL2512.png" class="cell__img">
           <div class="cell__price">
             IFL2512
-            <br>34.8 за 1 кв.м в у. е
+            <br>34.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IFL2513.png" class="cell__img">
+          <img src="./images/IFL2513.png" class="cell__img">
           <div class="cell__price">
             IFL2513
-            <br>34.8 за 1 кв.м в у. е
+            <br>34.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL2501.png" class="cell__img">
+          <img src="./images/IL2501.png" class="cell__img">
           <div class="cell__price">
             IL2501
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL2503.png" class="cell__img">
+          <img src="./images/IL2503.png" class="cell__img">
           <div class="cell__price">
             IL2503
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL2507.png" class="cell__img">
+          <img src="./images/IL2507.png" class="cell__img">
           <div class="cell__price">
             IL2507
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL2512.png" class="cell__img">
+          <img src="./images/IL2512.png" class="cell__img">
           <div class="cell__price">
             IL2512
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL2513.png" class="cell__img">
+          <img src="./images/IL2513.png" class="cell__img">
           <div class="cell__price">
             IL2513
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL2518.png" class="cell__img">
+          <img src="./images/IL2518.png" class="cell__img">
           <div class="cell__price">
             IL2518
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL2521.png" class="cell__img">
+          <img src="./images/IL2521.png" class="cell__img">
           <div class="cell__price">
             IL2521
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL251001.png" class="cell__img">
+          <img src="./images/IL251001.png" class="cell__img">
           <div class="cell__price">
             IL251001
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL25812mix.png" class="cell__img">
+          <img src="./images/IL25812mix.png" class="cell__img">
           <div class="cell__price">
             IL25812mix
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V2500.png" class="cell__img">
+          <img src="./images/V2500.png" class="cell__img">
           <div class="cell__price">
             V2500
-            <br>21.6 за 1 кв.м в у. е
+            <br>21.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V2502.png" class="cell__img">
+          <img src="./images/V2502.png" class="cell__img">
           <div class="cell__price">
             V2502
-            <br>28.8 за 1 кв.м в у. е
+            <br>28.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V2506.png" class="cell__img">
+          <img src="./images/V2506.png" class="cell__img">
           <div class="cell__price">
             V2506
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V2508A.png" class="cell__img">
+          <img src="./images/V2508A.png" class="cell__img">
           <div class="cell__price">
             V2508A
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V2506mix.png" class="cell__img">
+          <img src="./images/V2506mix.png" class="cell__img">
           <div class="cell__price">
             V2506mix
-            <br>38.4 за 1 кв.м в у. е
+            <br>38.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V2501mix.png" class="cell__img">
+          <img src="./images/V2501mix.png" class="cell__img">
           <div class="cell__price">
             V2501mix
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V2510mix.png" class="cell__img">
+          <img src="./images/V2510mix.png" class="cell__img">
           <div class="cell__price">
             V2510mix
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V25121mix.png" class="cell__img">
+          <img src="./images/V25121mix.png" class="cell__img">
           <div class="cell__price">
             V25121mix
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VFL2500.png" class="cell__img">
+          <img src="./images/VFL2500.png" class="cell__img">
           <div class="cell__price">
             VFL2500
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VFL2502.png" class="cell__img">
+          <img src="./images/VFL2502.png" class="cell__img">
           <div class="cell__price">
             VFL2502
-            <br>38.4 за 1 кв.м в у. е
+            <br>38.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VFL2508.png" class="cell__img">
+          <img src="./images/VFL2508.png" class="cell__img">
           <div class="cell__price">
             VFL2508
-            <br>38.4 за 1 кв.м в у. е
+            <br>38.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VFL25001mix.png" class="cell__img">
+          <img src="./images/VFL25001mix.png" class="cell__img">
           <div class="cell__price">
             VFL25001mix
-            <br>38.4 за 1 кв.м в у. е
+            <br>38.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI2504.png" class="cell__img">
+          <img src="./images/VI2504.png" class="cell__img">
           <div class="cell__price">
             VI2504
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI2504mix.png" class="cell__img">
+          <img src="./images/VI2504mix.png" class="cell__img">
           <div class="cell__price">
             VI2504mix
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI2506.png" class="cell__img">
+          <img src="./images/VI2506.png" class="cell__img">
           <div class="cell__price">
             VI2506
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI2508.png" class="cell__img">
+          <img src="./images/VI2508.png" class="cell__img">
           <div class="cell__price">
             VI2508
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI2518mixT.png" class="cell__img">
+          <img src="./images/VI2518mixT.png" class="cell__img">
           <div class="cell__price">
             VI2518mixT
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI2518mixO.png" class="cell__img">
+          <img src="./images/VI2518mixO.png" class="cell__img">
           <div class="cell__price">
             VI2518mixO
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI25096mix.png" class="cell__img">
+          <img src="./images/VI25096mix.png" class="cell__img">
           <div class="cell__price">
             VI25096mix
-            <br>26.4 за 1 кв.м в у. е
+            <br>26.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL2504.png" class="cell__img">
+          <img src="./images/VIL2504.png" class="cell__img">
           <div class="cell__price">
             VIL2504
-            <br>38.4 за 1 кв.м в у. е
+            <br>38.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL2508.png" class="cell__img">
+          <img src="./images/VIL2508.png" class="cell__img">
           <div class="cell__price">
             VIL2508
-            <br>38.4 за 1 кв.м в у. е
+            <br>38.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL25810mix.png" class="cell__img">
+          <img src="./images/VIL25810mix.png" class="cell__img">
           <div class="cell__price">
             VIL25810mix
-            <br>31.2 за 1 кв.м в у. е
+            <br>31.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL25821mix.png" class="cell__img">
+          <img src="./images/VIL25821mix.png" class="cell__img">
           <div class="cell__price">
             VIL25821mix
-            <br>31.2 за 1 кв.м в у. е
+            <br>31.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL2500.png" class="cell__img">
+          <img src="./images/VL2500.png" class="cell__img">
           <div class="cell__price">
             VL2501
-            <br>33.6 за 1 кв.м в у. е
+            <br>33.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL2501.png" class="cell__img">
+          <img src="./images/VL2501.png" class="cell__img">
           <div class="cell__price">
             VL2501
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL2502.png" class="cell__img">
+          <img src="./images/VL2502.png" class="cell__img">
           <div class="cell__price">
             VL2502
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL2508.png" class="cell__img">
+          <img src="./images/VL2508.png" class="cell__img">
           <div class="cell__price">
             VL2508
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL2502mix.png" class="cell__img">
+          <img src="./images/VL2502mix.png" class="cell__img">
           <div class="cell__price">
             VL2502mix
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL2506mix.png" class="cell__img">
+          <img src="./images/VL2506mix.png" class="cell__img">
           <div class="cell__price">
             VL2506mix
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL25018mix.png" class="cell__img">
+          <img src="./images/VL25018mix.png" class="cell__img">
           <div class="cell__price">
             VL25018mix
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL250218mix.png" class="cell__img">
+          <img src="./images/VL250218mix.png" class="cell__img">
           <div class="cell__price">
             VL250218mix
-            <br>36 за 1 кв.м в у. е
+            <br>36 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
@@ -771,451 +775,451 @@
     <div class="range">
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1201.png" class="cell__img">
+          <img src="./images/I1201.png" class="cell__img">
           <div class="cell__price">
             I1201
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1203.png" class="cell__img">
+          <img src="./images/I1203.png" class="cell__img">
           <div class="cell__price">
             I1203
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1204.png" class="cell__img">
+          <img src="./images/I1204.png" class="cell__img">
           <div class="cell__price">
             I1204
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1206.png" class="cell__img">
+          <img src="./images/I1206.png" class="cell__img">
           <div class="cell__price">
             I1206
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1207.png" class="cell__img">
+          <img src="./images/I1207.png" class="cell__img">
           <div class="cell__price">
             I1207
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1208.png" class="cell__img">
+          <img src="./images/I1208.png" class="cell__img">
           <div class="cell__price">
             I1208
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1209.png" class="cell__img">
+          <img src="./images/I1209.png" class="cell__img">
           <div class="cell__price">
             I1209
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1210.png" class="cell__img">
+          <img src="./images/I1210.png" class="cell__img">
           <div class="cell__price">
             I1210
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1212.png" class="cell__img">
+          <img src="./images/I1212.png" class="cell__img">
           <div class="cell__price">
             I1212
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1213.png" class="cell__img">
+          <img src="./images/I1213.png" class="cell__img">
           <div class="cell__price">
             I1213
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1218.png" class="cell__img">
+          <img src="./images/I1218.png" class="cell__img">
           <div class="cell__price">
             I1218
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1218K.png" class="cell__img">
+          <img src="./images/I1218K.png" class="cell__img">
           <div class="cell__price">
             I1218K
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I1221.png" class="cell__img">
+          <img src="./images/I1221.png" class="cell__img">
           <div class="cell__price">
             I1221
-            <br>43.2 за 1 кв.м в у. е
+            <br>43.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1201.png" class="cell__img">
+          <img src="./images/IL1201.png" class="cell__img">
           <div class="cell__price">
             IL1201
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1203.png" class="cell__img">
+          <img src="./images/IL1203.png" class="cell__img">
           <div class="cell__price">
             IL1203
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1204.png" class="cell__img">
+          <img src="./images/IL1204.png" class="cell__img">
           <div class="cell__price">
             IL1204
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1206.png" class="cell__img">
+          <img src="./images/IL1206.png" class="cell__img">
           <div class="cell__price">
             IL1206
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1208.png" class="cell__img">
+          <img src="./images/IL1208.png" class="cell__img">
           <div class="cell__price">
             IL1208
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1209.png" class="cell__img">
+          <img src="./images/IL1209.png" class="cell__img">
           <div class="cell__price">
             IL1209
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1210.png" class="cell__img">
+          <img src="./images/IL1210.png" class="cell__img">
           <div class="cell__price">
             IL1210
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1213.png" class="cell__img">
+          <img src="./images/IL1213.png" class="cell__img">
           <div class="cell__price">
             IL1213
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL1221.png" class="cell__img">
+          <img src="./images/IL1221.png" class="cell__img">
           <div class="cell__price">
             IL1221
-            <br>62.4 за 1 кв.м в у. е
+            <br>62.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/IL120313mix.png" class="cell__img">
+          <img src="./images/IL120313mix.png" class="cell__img">
           <div class="cell__price">
             IL120313mix
-            <br>64.8 за 1 кв.м в у. е
+            <br>64.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1200.png" class="cell__img">
+          <img src="./images/V1200.png" class="cell__img">
           <div class="cell__price">
             V1200
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1201mix.png" class="cell__img">
+          <img src="./images/V1201mix.png" class="cell__img">
           <div class="cell__price">
             V1201mix
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1202.png" class="cell__img">
+          <img src="./images/V1202.png" class="cell__img">
           <div class="cell__price">
             V1202
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1204mix.png" class="cell__img">
+          <img src="./images/V1204mix.png" class="cell__img">
           <div class="cell__price">
             V1204mix
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1207.png" class="cell__img">
+          <img src="./images/V1207.png" class="cell__img">
           <div class="cell__price">
             V1207
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1208.png" class="cell__img">
+          <img src="./images/V1208.png" class="cell__img">
           <div class="cell__price">
             V1208
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1209.png" class="cell__img">
+          <img src="./images/V1209.png" class="cell__img">
           <div class="cell__price">
             V1209
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/V1210.png" class="cell__img">
+          <img src="./images/V1210.png" class="cell__img">
           <div class="cell__price">
             V1210
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI1204.png" class="cell__img">
+          <img src="./images/VI1204.png" class="cell__img">
           <div class="cell__price">
             VI1204
-            <br>50.4 за 1 кв.м в у. е
+            <br>50.4 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI1204mix.png" class="cell__img">
+          <img src="./images/VI1204mix.png" class="cell__img">
           <div class="cell__price">
             VI1204mix
-            <br>52.8 за 1 кв.м в у. е
+            <br>52.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI1206.png" class="cell__img">
+          <img src="./images/VI1206.png" class="cell__img">
           <div class="cell__price">
             VI1206
-            <br>52.8 за 1 кв.м в у. е
+            <br>52.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI1208.png" class="cell__img">
+          <img src="./images/VI1208.png" class="cell__img">
           <div class="cell__price">
             VI1208
-            <br>52.8 за 1 кв.м в у. е
+            <br>52.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VI1210.png" class="cell__img">
+          <img src="./images/VI1210.png" class="cell__img">
           <div class="cell__price">
             VI1210
-            <br>52.8 за 1 кв.м в у. е
+            <br>52.8 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL1210.png" class="cell__img">
+          <img src="./images/VIL1210.png" class="cell__img">
           <div class="cell__price">
             VIL1210
-            <br>67.2 за 1 кв.м в у. е
+            <br>67.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL1230mix.png" class="cell__img">
+          <img src="./images/VIL1230mix.png" class="cell__img">
           <div class="cell__price">
             VIL1230mix
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL1234mix.png" class="cell__img">
+          <img src="./images/VIL1234mix.png" class="cell__img">
           <div class="cell__price">
             VIL1234mix
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL1234mix1.png" class="cell__img">
+          <img src="./images/VIL1234mix1.png" class="cell__img">
           <div class="cell__price">
             VIL1234mix/1
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL1238mix.png" class="cell__img">
+          <img src="./images/VIL1238mix.png" class="cell__img">
           <div class="cell__price">
             VIL1238mix
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL1284mix.png" class="cell__img">
+          <img src="./images/VIL1284mix.png" class="cell__img">
           <div class="cell__price">
             VIL1284mix
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VIL12004mix.png" class="cell__img">
+          <img src="./images/VIL12004mix.png" class="cell__img">
           <div class="cell__price">
             VIL12004mix
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL1200.png" class="cell__img">
+          <img src="./images/VL1200.png" class="cell__img">
           <div class="cell__price">
             VL1200
-            <br>67.2 за 1 кв.м в у. е
+            <br>67.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL1201.png" class="cell__img">
+          <img src="./images/VL1201.png" class="cell__img">
           <div class="cell__price">
             VL1201
-            <br>67.2 за 1 кв.м в у. е
+            <br>67.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL1202.png" class="cell__img">
+          <img src="./images/VL1202.png" class="cell__img">
           <div class="cell__price">
             VL1202
-            <br>67.2 за 1 кв.м в у. е
+            <br>67.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL1204.png" class="cell__img">
+          <img src="./images/VL1204.png" class="cell__img">
           <div class="cell__price">
             VL1204
-            <br>67.2 за 1 кв.м в у. е
+            <br>67.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL1208.png" class="cell__img">
+          <img src="./images/VL1208.png" class="cell__img">
           <div class="cell__price">
             VL1208
-            <br>67.2 за 1 кв.м в у. е
+            <br>67.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL1280mix.png" class="cell__img">
+          <img src="./images/VL1280mix.png" class="cell__img">
           <div class="cell__price">
             VL1280mix
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/VL12003mix.png" class="cell__img">
+          <img src="./images/VL12003mix.png" class="cell__img">
           <div class="cell__price">
             VL12003mix
-            <br>69.6 за 1 кв.м в у. е
+            <br>69.6 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
@@ -1229,49 +1233,1234 @@
     <div class="range">
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I4001.png" class="cell__img">
+          <img src="./images/I4001.png" class="cell__img">
           <div class="cell__price">
             I4001
-            <br>31.2 за 1 кв.м в у. е
+            <br>31.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I4003.png" class="cell__img">
+          <img src="./images/I4003.png" class="cell__img">
           <div class="cell__price">
             I4003
-            <br>31.2 за 1 кв.м в у. е
+            <br>31.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I4004.png" class="cell__img">
+          <img src="./images/I4004.png" class="cell__img">
           <div class="cell__price">
             I4004
-            <br>31.2 за 1 кв.м в у. е
+            <br>31.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I4012.png" class="cell__img">
+          <img src="./images/I4012.png" class="cell__img">
           <div class="cell__price">
             I4012
-            <br>31.2 за 1 кв.м в у. е
+            <br>31.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
       <ul class="cell">
         <li>
-          <img src="./AImosaicimg/I4013.png" class="cell__img">
+          <img src="./images/I4013.png" class="cell__img">
           <div class="cell__price">
             I4013
-            <br>31.2 за 1 кв.м в у. е
+            <br>31.2 за 1 кв.м в у. е.
           </div>
         </li>
       </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I4018.png" class="cell__img">
+          <div class="cell__price">
+            I4018
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="range__subtitle range__text">
+      Мозаика прессованная/порошковая (шестигранник)
+    </div>
+    <div class="range__description range__text">
+      Размер камня ~ 23мм. х 23мм. х 23мм.
+      <br>Размер одного, целого листа ~ 300мм. х 295мм.
+      <br>Количество листов в гофрированной, картонной коробке - 24 шт.
+      <br>Вес брутто коробки с мозаикой ~ 18,5 кг. (+/- 100 гр.)
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/I2301A.png" class="cell__img">
+          <div class="cell__price">
+            I2301A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2304A.png" class="cell__img">
+          <div class="cell__price">
+            I2304A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2308A.png" class="cell__img">
+          <div class="cell__price">
+            I2308A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2310A.png" class="cell__img">
+          <div class="cell__price">
+            I2310A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2312A.png" class="cell__img">
+          <div class="cell__price">
+            I2312A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2321A.png" class="cell__img">
+          <div class="cell__price">
+            I2321A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2322A.png" class="cell__img">
+          <div class="cell__price">
+            I2322A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2322mixA.png" class="cell__img">
+          <div class="cell__price">
+            I2322mixA
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2323A.png" class="cell__img">
+          <div class="cell__price">
+            I2323A
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2323AO.png" class="cell__img">
+          <div class="cell__price">
+            I2323AO
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/I2323Amix.png" class="cell__img">
+          <div class="cell__price">
+            I2323Amix
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V2300A.png" class="cell__img">
+          <div class="cell__price">
+            V2300A
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V2301A.png" class="cell__img">
+          <div class="cell__price">
+            V2301A
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V2301B.png" class="cell__img">
+          <div class="cell__price">
+            V2301B
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V2301C.png" class="cell__img">
+          <div class="cell__price">
+            V2301C
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V2301mixA.png" class="cell__img">
+          <div class="cell__price">
+            V2301mixA
+            <br>36 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V2308A.png" class="cell__img">
+          <div class="cell__price">
+            V2308A
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V2308AR.png" class="cell__img">
+          <div class="cell__price">
+            V2308AR
+            <br>38.4 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V23008AR.png" class="cell__img">
+          <div class="cell__price">
+            V23008AR
+            <br>38.4 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VI2304A.png" class="cell__img">
+          <div class="cell__price">
+            VI2304A
+            <br>38.4 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VI2308A.png" class="cell__img">
+          <div class="cell__price">
+            VI2308A
+            <br>38.4 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VL2300A.png" class="cell__img">
+          <div class="cell__price">
+            VL2300A
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VL2308A.png" class="cell__img">
+          <div class="cell__price">
+            VL2308A
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VL2308AR.png" class="cell__img">
+          <div class="cell__price">
+            VL2308AR
+            <br>45.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VL23008mixA.png" class="cell__img">
+          <div class="cell__price">
+            VL23008mixA
+            <br>45.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VL23008AR.png" class="cell__img">
+          <div class="cell__price">
+            VL23008AR
+            <br>45.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="range__subtitle range__text">
+      Мозаика прессованная/порошковая (ромбик)
+    </div>
+    <div class="range__description range__text">
+      Размер камня ~ 27мм. х 47мм. (крест-на-крест)
+      <br>Размер одного, целого листа ~ 285мм. х 287мм.
+      <br>Количество листов в гофрированной, картонной коробке - 24 шт.
+      <br>Вес брутто коробки с мозаикой ~ 15,0 кг. (+/- 100 гр.)
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/RI2521.png" class="cell__img">
+          <div class="cell__price">
+            RI2521
+            <br>38.4 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/RV2508.png" class="cell__img">
+          <div class="cell__price">
+            RV2508
+            <br>45.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/RVI2508.png" class="cell__img">
+          <div class="cell__price">
+            RVI2508
+            <br>45.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="ornament">
+      <img class="ornament__inner" src="./images/ornament.png">
+    </div>
+    <div class="range__wrapper">
+    <div id="subsection2" class="range__text">
+      <div class="range__subtitle">
+        Мозаика стеклянная
+      </div>
+      <div class="range__description">
+        Размер плитки ~ 25мм. х 25мм.
+        <br>Размер одного, целого листа ~ 322мм. х 322мм.
+        <br>Количество листов в гофрированной, картонной коробке - 22 шт.
+        <br>Вес брутто коробки с мозаикой ~ 17,5 кг. (+/- 100 гр.)
+      </div>
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/S0102mix.png" class="cell__img">
+          <div class="cell__price">
+            S0102mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2500.png" class="cell__img">
+          <div class="cell__price">
+            S2500
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2501.png" class="cell__img">
+          <div class="cell__price">
+            S2501
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2501mix.png" class="cell__img">
+          <div class="cell__price">
+            S2501mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2501mixA.png" class="cell__img">
+          <div class="cell__price">
+            S2501mixA
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2502.png" class="cell__img">
+          <div class="cell__price">
+            S2502
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2504.png" class="cell__img">
+          <div class="cell__price">
+            S2504
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2504B.png" class="cell__img">
+          <div class="cell__price">
+            S2504B
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2504C.png" class="cell__img">
+          <div class="cell__price">
+            S2504C
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2504mix.png" class="cell__img">
+          <div class="cell__price">
+            S2504mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2504mixO.png" class="cell__img">
+          <div class="cell__price">
+            S2504mixO
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2504XB.png" class="cell__img">
+          <div class="cell__price">
+            S2504XB
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2505.png" class="cell__img">
+          <div class="cell__price">
+            S2505
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2505mix.png" class="cell__img">
+          <div class="cell__price">
+            S2505mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2505mixA.png" class="cell__img">
+          <div class="cell__price">
+            S2505mixA
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2505X.png" class="cell__img">
+          <div class="cell__price">
+            S2505X
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2506.png" class="cell__img">
+          <div class="cell__price">
+            S2506
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2506mix.png" class="cell__img">
+          <div class="cell__price">
+            S2506mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2507.png" class="cell__img">
+          <div class="cell__price">
+            S2507
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2508.png" class="cell__img">
+          <div class="cell__price">
+            S2508
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2508A.png" class="cell__img">
+          <div class="cell__price">
+            S2508A
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2508H.png" class="cell__img">
+          <div class="cell__price">
+            S2508H
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2508H1.png" class="cell__img">
+          <div class="cell__price">
+            S2508H/1
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2508mix.png" class="cell__img">
+          <div class="cell__price">
+            S2508mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2508mix1.png" class="cell__img">
+          <div class="cell__price">
+            S2508mix/1
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2509mix.png" class="cell__img">
+          <div class="cell__price">
+            S2509mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2510mix.png" class="cell__img">
+          <div class="cell__price">
+            S2510mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2510mix1.png" class="cell__img">
+          <div class="cell__price">
+            S2510mix/1
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2521.png" class="cell__img">
+          <div class="cell__price">
+            S2521
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2521B.png" class="cell__img">
+          <div class="cell__price">
+            S2521B
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2521mix.png" class="cell__img">
+          <div class="cell__price">
+            S2521mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S25789mix.png" class="cell__img">
+          <div class="cell__price">
+            S25789mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S25405mix.png" class="cell__img">
+          <div class="cell__price">
+            S25405mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S250584mix.png" class="cell__img">
+          <div class="cell__price">
+            S250584mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S250821mix.png" class="cell__img">
+          <div class="cell__price">
+            S250821mix
+            <br>30 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2500.png" class="cell__img">
+          <div class="cell__price">
+            SL2500
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2501.png" class="cell__img">
+          <div class="cell__price">
+            SL2501
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2501A.png" class="cell__img">
+          <div class="cell__price">
+            SL2501A
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2501C.png" class="cell__img">
+          <div class="cell__price">
+            SL2501C
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2504.png" class="cell__img">
+          <div class="cell__price">
+            SL2504
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2504B.png" class="cell__img">
+          <div class="cell__price">
+            SL2504B
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2504C.png" class="cell__img">
+          <div class="cell__price">
+            SL2504C
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2504mix.png" class="cell__img">
+          <div class="cell__price">
+            SL2504mix
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2508.png" class="cell__img">
+          <div class="cell__price">
+            SL2508
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2508mix.png" class="cell__img">
+          <div class="cell__price">
+            SL2508mix
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/ST2508.png" class="cell__img">
+          <div class="cell__price">
+            ST2508
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/ST25005.png" class="cell__img">
+          <div class="cell__price">
+            ST25005
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/ST25058.png" class="cell__img">
+          <div class="cell__price">
+            ST25058
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/ST25084.png" class="cell__img">
+          <div class="cell__price">
+            ST25084
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/ST250405.png" class="cell__img">
+          <div class="cell__price">
+            ST250405
+            <br>31.2 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="range__description range__text">
+      Размер плитки ~ 50мм. х 50мм.
+      <br>Размер одного, целого листа ~ 310мм. х 310мм.
+      <br>Количество листов в гофрированной, картонной коробке - 22 шт.
+      <br>Вес брутто коробки с мозаикой ~ 17,5 кг. (+/- 100 гр.)
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/S5000.png" class="cell__img">
+          <div class="cell__price">
+            S5000
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S5002.png" class="cell__img">
+          <div class="cell__price">
+            S5002
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S5004.png" class="cell__img">
+          <div class="cell__price">
+            S5004
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S5004B.png" class="cell__img">
+          <div class="cell__price">
+            S5004B
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S5004C.png" class="cell__img">
+          <div class="cell__price">
+            S5004C
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S5005.png" class="cell__img">
+          <div class="cell__price">
+            S5005
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S5008.png" class="cell__img">
+          <div class="cell__price">
+            S5008
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="range__description range__text">
+      Размер плитки ~ 25мм. х 50мм.
+      <br>Размер одного, целого листа ~ 310мм. х 295мм.
+      <br>Количество листов в гофрированной, картонной коробке - 22 шт.
+      <br>Вес брутто коробки с мозаикой ~ 17,5 кг. (+/- 100 гр.)
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/S2601mix.png" class="cell__img">
+          <div class="cell__price">
+            S2601mix
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2605mix.png" class="cell__img">
+          <div class="cell__price">
+            S2605mix
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2606.png" class="cell__img">
+          <div class="cell__price">
+            S2606
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2606mix.png" class="cell__img">
+          <div class="cell__price">
+            S2606mix
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2607.png" class="cell__img">
+          <div class="cell__price">
+            S2607
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2608mix.png" class="cell__img">
+          <div class="cell__price">
+            S2608mix
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2610mix.png" class="cell__img">
+          <div class="cell__price">
+            S2610mix
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2610mix1.png" class="cell__img">
+          <div class="cell__price">
+            S2610mix/1
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S26405mix.png" class="cell__img">
+          <div class="cell__price">
+            S26405mix
+            <br>33.6 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/SL2608.png" class="cell__img">
+          <div class="cell__price">
+            SL2608
+            <br>40.8 за 1 кв.м в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="ornament">
+      <img class="ornament__inner" src="./images/ornament.png">
+    </div>
+    <div class="range__wrapper">
+    <div id="subsection3" class="range__text">
+      <div class="range__subtitle">
+        Фриз (размер по высоте ~20 см.)
+      </div>
+      <div class="range__description">
+        Порошковые модели
+      </div>
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/FV2502TK(фосфор).png" class="cell__img">
+          <div class="cell__price">
+            FV2502TK(фосфор)
+            <br>38.4 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/IL1203X.png" class="cell__img">
+          <div class="cell__price">
+            IL1203X
+            <br>26.4 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V1201X.png" class="cell__img">
+          <div class="cell__price">
+            V1201X
+            <br>21.6 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V1202G.png" class="cell__img">
+          <div class="cell__price">
+            V1202G
+            <br>26.4 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/VI1204Рамка.png" class="cell__img">
+          <div class="cell__price">
+            VI1204Рамка
+            <br>16.8 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V1202Узор.png" class="cell__img">
+          <div class="cell__price">
+            V1202Узор
+            <br>16.8 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/V1202Ромб.png" class="cell__img">
+          <div class="cell__price">
+            V1202Ромб
+            <br>16.8 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="range__description range__text">
+      Стеклянные модели
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/S2502TK.png" class="cell__img">
+          <div class="cell__price">
+            S2502TK
+            <br>12 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2502U.png" class="cell__img">
+          <div class="cell__price">
+            S2502U
+            <br>12 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2502Рамка.png" class="cell__img">
+          <div class="cell__price">
+            S2502Рамка
+            <br>12 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2502Волна.png" class="cell__img">
+          <div class="cell__price">
+            S2502Волна
+            <br>12 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S25022.png" class="cell__img">
+          <div class="cell__price">
+            S2502 2.0
+            <br>12 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S2502T.png" class="cell__img">
+          <div class="cell__price">
+            S2502T
+            <br>12 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S25082.png" class="cell__img">
+          <div class="cell__price">
+            S2508 2.0
+            <br>14.4 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/S25042.png" class="cell__img">
+          <div class="cell__price">
+            S2504 2.0
+            <br>12 за 1 метр в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="range__subtitle range__text">
+      Фигуры
+    </div>
+    <div class="range">
+      <ul class="cell">
+        <li>
+          <img src="./images/Дельфин.png" class="cell__img">
+          <div class="cell__price">
+            Дельфин
+            <br>(габаритные размеры ~160*100 см.)
+            <br>290.4 за 1 единицу в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/Черепаха.png" class="cell__img">
+          <div class="cell__price">
+            Черепаха
+            <br>(габаритные размеры ~120*100 см.)
+            <br>290.4 за 1 единицу в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/Рыбка.png" class="cell__img">
+          <div class="cell__price">
+            Рыбка Красная
+            <br>(габаритные размеры ~ 43*41 см.)
+            <br>74.4 за 1 единицу в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/Рыбка2.png" class="cell__img">
+          <div class="cell__price">
+            Рыбка Синяя
+            <br>(габаритные размеры ~ 43*41 см.)
+            <br>74.4 за 1 единицу в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/МорскаяЗвезда.png" class="cell__img cell__img--star">
+          <div class="cell__price">
+            Морская звезда
+            <br>(габаритные размеры ~ 50*50 см.)
+            <br>74.4 за 1 единицу в у. е.
+          </div>
+        </li>
+      </ul>
+      <ul class="cell">
+        <li>
+          <img src="./images/МорскаяЗвезда2.png" class="cell__img">
+          <div class="cell__price">
+            Морская звезда Синяя
+            <br>(габаритные размеры ~ 50*50 см.)
+            <br>74.4 за 1 единицу в у. е.
+          </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="contacts" class="ornament">
+      <img class="ornament__inner" src="./images/ornament.png">
+    </div>
+    <div class="footer">
+      <div class="footer__inner">
+        <div class="footer__logo">
+          <img src="./images/logo.png" class="footer__img">
+        </div>
+        <div class="footer__link">
+          <div class="footer__description">
+            Контактные данные
+          </div class="footer__link--inner">
+          <div class="footer__mail">
+            <a href="mailto:aimosaic@gmail.com" class="footer__mail--inner">
+              aimosaic@gmail.com
+            </a>
+          </div>
+          <div class="footer__tg">
+            <a href="tg://resolve?domain=@Aimosaic_krd" class="footer__tg--inner">
+              @Aimosaic_krd
+            </a>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          +7(961) 301 69 69 Call-center
+          <br>+7(988) 540 67 67 Озгур
+          <br>+7(951) 518 87 73 Станислав
+        </div>
+        <div class="footer__address">
+          <div class="footer__address--inner">Адреса</div>
+          Шоу-рум : г. Краснодар , улица Северная , д. 320 , помещение 107 
+          <br>Офис : г. Ростов-на-Дону , улица Шолохова , д  270/1 , помещение 34а
+        </div>
+      </div>
     </div>
   </body>
 </html>
