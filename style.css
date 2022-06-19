@@ -345,3 +345,7 @@ body {
 .footer__address--inner {
   font-weight: 300;
 }
+
+@media screen (max-width: 768px) {
+
+}
