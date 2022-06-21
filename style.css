@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
 
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   background-color: #222425;
@@ -85,7 +90,7 @@ body {
   cursor: pointer;
 }
 
-.header__menu :hover {
+.header__link:hover {
   filter: brightness(3.5);
 }
 
@@ -117,6 +122,10 @@ body {
 .banner__title--inner {
   font-weight: 300;
   padding: 3% 0;
+}
+
+.banner__title--adaptive {
+  display: none;
 }
 
 .banner__subtitle {
@@ -389,7 +398,7 @@ body {
 }
 
 .footer__img {
-  width: ;
+  width: 48%;
 }
 
 .footer__link--inner {
@@ -411,5 +420,150 @@ body {
 @media (max-width: 976px) {
 .range {
   grid-template-columns: repeat(4, 1fr)
+}
+
+.header__title {
+  display: none;
+}
+
+.banner__subtitle {
+  display: none;
+}
+
+.page__wrapper {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin: 0;
+  width: 17%;
+  position: absolute;
+  top: 4vw;
+  left: 4vw;
+}
+
+.header__banner {
+  width: 50%;
+}
+
+.header__text {
+  color: white;
+  padding: 4vw;
+  font-size: 1.3rem;
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__contacts {
+  color: white;
+  margin-bottom: 10%;
+  margin-left: 55%;
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 12%;
+}
+
+.hexagon{
+  width: 1rem;
+}
+
+.banner__text--wrapper {
+  left: 30%;
+  position: absolute;
+  top: 85%;
+  width: 40%;
+  font-size: 1.4rem;
+}
+
+.banner__title {
+  padding: 1% 5%;
+}
+
+@media (max-width: 880px) {
+html {
+  font-size: 13px;
+}
+}
+
+@media (max-width: 740px) {
+.header__contacts{
+  font-size: 1rem;
+}
+
+.header__menu {
+  width: 100%;
+}
+}
+
+@media (max-width: 710px) {
+.banner__title--inner {
+  display: none;
+}
+
+.banner__title--adaptive {
+  display: block;
+}
+
+.header__contacts {
+  display: none;
+}
+
+.header__menu {
+  margin-top: 40%;
+}
+
+.banner__title {
+  display: flex;
+  justify-content: center;
+}
+
+.banner__text--wrapper {
+  left: 35%;
+  width: 25%;
+}
+
+html {
+  font-size: 14px;
+}
+}
+
+@media (max-width: 570px) {
+html {
+  font-size: 12px;
+}
+}
+
+@media (max-width: 500px) {
+.range {
+  grid-template-columns: repeat(3, 1fr)
+} 
+
+html {
+  font-size: 10px;
+}
+}
+
+@media (max-width: 415px) {
+html {  
+  font-size: 9px;
+}
+
+.header__banner {
+  min-width: 0px;
+}
+
+.banner__text--wrapper {
+  width: 35%;
+}
+}
+
+@media (max-width: 300px) {
+html {    
+  font-size: 8px;
 }
 }
