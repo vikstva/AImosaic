@@ -90,7 +90,7 @@ body {
   cursor: pointer;
 }
 
-.header__contacts--link, .footer__contacts--link {
+.header__contacts--link, .footer__contacts--link, .banner__adaptive--link {
   text-decoration: none;
   color: white;
 }
