@@ -72,10 +72,11 @@ body {
 .header__link--inner {
   color: white;
   text-decoration: none;
+  transition: 0.15s ease-in;
 }
 
 .header__link--inner:hover {
-  color: #595353;
+  color: #a3a3a3;
 }
 
 .header__link--height {
@@ -95,8 +96,9 @@ body {
   color: white;
 }
 
-.header__link:hover {
-  filter: brightness(3.5);
+.header__contacts--link {
+  text-decoration: none;
+  color: #AE2121;
 }
 
 .header__subsection {
@@ -264,7 +266,7 @@ body {
 
 .range__description {
   font-weight: 100;
-  margin: 3% 0;
+  margin: 5% 0;
   font-size: 1.4vw;
 }
 
@@ -279,7 +281,7 @@ body {
 }
 
 .range__subtitle--top {
-  padding-top: 8%;
+  font-weight: 100;
 }
 
 .range__example {
@@ -326,6 +328,7 @@ body {
   position: relative;
   margin: 0;
   overflow: hidden;
+  width: 100%;
 }
 
 .cell__price {
@@ -504,26 +507,45 @@ body {
 .making__image--text {
   font-size: 1rem;
 }
+
 .range__title {
   font-size: 1.7rem;
 }
+
 .range__subtitle {
   font-size: 1.3rem;
 }
+
 .range__text {
   font-size: 1.2rem;
 }
+
 .footer__description {
   display: none;
 }
+
 .footer__inner {
   font-size: 1rem;
 }
+
 .footer__img {
   width: 60%;
 }
+
 .footer__contacts {
   max-width: 20%;
+}
+
+.header__contacts--link {
+  color: white;
+}
+
+.cell__price {
+  font-size: 1rem;
+}
+
+.range__description {
+  font-size: 1.2rem;
 }
 }
 
