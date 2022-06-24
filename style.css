@@ -417,10 +417,6 @@ body {
   font-weight: 300;
 }
 
-.footer__mail--inner {
-  color: #222425;
-}
-
 .footer__link {
   font-weight: 200;
   padding-left: 2%;
@@ -452,8 +448,8 @@ div.scrollup {
   background-color: #90241F;
   right: 20px;
   bottom: 0px;
-  padding: 4px 10px;
-  width: 20px;
+  padding: 6px 10px;
+  width: 30px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px; 
   cursor: pointer; 
@@ -464,10 +460,6 @@ div.scrollup {
 
 div.scrollup:hover {
   background-color: rgb(71, 5, 5);
-}
-
-.scrollup__img {
-
 }
 
 @media (max-width: 976px) {
@@ -742,6 +734,53 @@ html {
 
 .making__grid5:hover {
   transform: none;
+}
+
+.making__text--inner {
+  font-size: 1.5rem;
+}
+
+.footer__inner {
+  font-size: 1.6rem;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  align-items: center;
+  line-height: normal;
+}
+
+.footer__link {
+  width: 40%;
+  padding-left: 0;
+  max-width: 100%;
+}
+
+.footer__images {
+  display: flex;
+}
+
+.footer__mail--inner, .footer__tg--inner {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contacts {
+  max-width: 100%;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer__address {
+  width: auto;
+  margin-bottom: 1.5rem;
+}
+
+.footer__contacts--link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
 }
 }
 
