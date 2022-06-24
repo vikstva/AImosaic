@@ -447,6 +447,29 @@ body {
   font-weight: 300;
 }
 
+div.scrollup {
+  position: fixed;
+  background-color: #90241F;
+  right: 20px;
+  bottom: 0px;
+  padding: 4px 10px;
+  width: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px; 
+  cursor: pointer; 
+  display: none; 
+  text-align: center;
+  z-index: 1;
+}
+
+div.scrollup:hover {
+  background-color: rgb(71, 5, 5);
+}
+
+.scrollup__img {
+
+}
+
 @media (max-width: 976px) {
 .range {
   grid-template-columns: repeat(4, 1fr)
@@ -505,7 +528,7 @@ body {
 .banner__text--wrapper {
   left: 30%;
   position: absolute;
-  top: 80%;
+  top: 85%;
   width: 40%;
   font-size: 1.4rem;
 }
