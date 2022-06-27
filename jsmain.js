@@ -2,11 +2,11 @@ $(function() {
   $('.scrollup').click(function() {
     $("html, body").animate({
       scrollTop:0
-    },1000);
+    },100);
   })
 })
 $(window).scroll(function() {
-  if ($(this).scrollTop()>200) {
+  if ($(this).scrollTop()>700) {
     $('.scrollup').fadeIn();
   }
   else {
