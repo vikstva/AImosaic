@@ -607,7 +607,7 @@ body {
 
   .banner__text--wrapper {
     left: 35%;
-    width: 25%;
+    width: 30%;
   }
 
   html {
@@ -643,7 +643,7 @@ body {
   }
 
   html {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .footer__contacts {
@@ -659,9 +659,9 @@ body {
 }
 
 
-@media (max-width: 415px) {
+@media (max-width: 450px) {
   html {
-    font-size: 9px;
+    font-size: 12px;
   }
 
   .header__banner {
