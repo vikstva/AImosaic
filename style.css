@@ -22,12 +22,7 @@ body {
 }
 
 .header__contacts--link {
-  font-family: Lora;
-  letter-spacing: 10px;
-  stroke: #ffa5d8;
-  font-size: 150px;
-  font-weight: 700;
-  stroke-width: 3;
+  animation: animate;
 }
 
 @keyframes animate {
