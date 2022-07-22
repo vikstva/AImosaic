@@ -25,3 +25,16 @@ $(window).scroll(function() {
   }
 });
 
+const slideDelay = 6000;
+
+      const dynamicSlider = document.getElementById("slider");
+
+      var curSlide = 0;
+      window.setInterval(()=>{
+        curSlide++;
+        if (curSlide === dynamicSlider.childElementCount) {
+          curSlide = 0;
+        }
+
+        dynamicSlider.firstElementChild.style.setProperty("margin-left", "-" + curSlide + "00%");
+      }, slideDelay);
