@@ -7,9 +7,14 @@
     <title>AImosaic</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
   </head>
   <body id="body">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <div class="loader">
       <ul class="loader__ul">
         <li class="loader__li"></li>
@@ -85,18 +90,19 @@
             </div>
           </div>
         </div>
+      </div>    
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">  <img src="./images/banner.jpg" class="header__banner--img" alt="banner"></div>
+          <div class="swiper-slide">  <img src="./images/banner2.jpg" class="header__banner--img" alt="banner"></div>
+          <div class="swiper-slide">  <img src="./images/banner3.jpg" class="header__banner--img" alt="banner"></div>
+        </div>
       </div>
-      <ul id="slider">
-        <li>
-          <img src="./images/banner.jpg" alt="banner" class="header__banner--img">
-        </li>
-        <li>
-          <img src="./images/banner2.jpg" alt="banner" class="header__banner--img">
-        </li>
-        <li>
-          <img src="./images/banner3.jpg" alt="banner" class="header__banner--img">
-        </li>
-      </ul>
+      <div class="header__logo--m">
+        <img src="./images/logo.png" alt="logo" class="header__logo--img">
+      </div>
     </div>
     <div id="our-work" class="ornament">
       <img class="ornament__inner" alt="ornament" src="./images/ornament.png">
@@ -2586,6 +2592,21 @@
     </div>
     </div>
   </body>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script defer src="jsmain.js"></script>
+
+  <script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    autoplay: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+  </script>
 </html>
