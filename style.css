@@ -37,7 +37,7 @@ body {
   color: #fff;
 }
 
-#content {
+#bodyContent {
   display: none;
 }
 
@@ -50,8 +50,6 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-
 
 @keyframes animate {
   0% {
@@ -510,6 +508,7 @@ body {
 
 .scrollup {
   position: fixed;
+  line-height: 62px;
   background-color: #90241fa1;
   right: 36px;
   bottom: 36px;
@@ -944,7 +943,7 @@ li:nth-child(25) {
 .header__text {
   padding: 0;
 }
-  
+
 .header__logo {
   display: none;
 }
